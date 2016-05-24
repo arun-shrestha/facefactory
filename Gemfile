@@ -7,6 +7,7 @@ gem 'devise'
 gem 'simple_form'
 gem 'bootstrap'
 gem 'carrierwave'
+gem 'cancancan'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets

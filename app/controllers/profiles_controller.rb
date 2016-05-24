@@ -1,5 +1,6 @@
 class ProfilesController < ApplicationController
   before_action :set_profile, only: [:show, :edit, :update, :destroy]
+  load_and_authorize_resource
 
   # GET /profiles
   # GET /profiles.json
@@ -19,6 +20,7 @@ class ProfilesController < ApplicationController
 
   # GET /profiles/1/edit
   def edit
+    authorize! :edit, @profile
   end
 
   # POST /profiles
