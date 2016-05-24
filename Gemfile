@@ -8,6 +8,7 @@ gem 'simple_form'
 gem 'bootstrap'
 gem 'carrierwave'
 gem 'cancancan'
+gem 'will_paginate'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
